@@ -55,6 +55,13 @@ public class MaquinaExpendedoraSimple {
         return totalDineroAcumulado;
     }
     /**
+     * Permite modificar el precio del billete
+     */
+    public void setPrecioBillete(int precioDelBillete){
+        precioBillete = precioDelBillete;
+    }
+    /**
+     * 
      * Simula la introduccion de dinero por parte del cliente actual
      */
     public void introducirDinero(int cantidadIntroducida) {
